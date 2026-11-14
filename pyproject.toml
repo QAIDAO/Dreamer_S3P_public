@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "s3p-paper-repro"
+version = "0.1.0"
+description = "Portable research workflow accompanying FDC2026-0145"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3", "scikit-learn>=1.4,<2", "rdkit>=2024.3,<2027"]
+
+[project.optional-dependencies]
+train = ["torch>=2.3,<3", "transformers>=4.46.3,<6", "tokenizers>=0.20,<1", "safetensors>=0.4,<1"]
+test = ["pytest>=8,<10", "PyYAML>=6,<7"]
+
+[project.scripts]
+s3p-repro = "s3p_repro.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

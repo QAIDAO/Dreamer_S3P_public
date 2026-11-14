@@ -1,0 +1,6 @@
+candidate_id,molecule_id,smiles,qed,sa,paper_model_score,paper_predicted_label
+M1,G16,C1=CC=C(C=C1)N=NC2=CC=C(C=C2)N=NC,0.67,2.49,0.87,1
+M2,G17,C1=CC=C(C=C1)N=NC2=CC=C(C=C2)C#N,0.69,2.06,0.84,1
+M3,G04,C1=CC=C(C=C1)C2=CC=CC=C2N=O,0.65,1.8,0.83,1
+M4,G06,C1=CC=C(C=C1)C2=CC=C(C=C2)N=O,0.65,1.72,0.75,1
+M5,G10,C1=CC=C(C=C1)N=O,0.5,1.99,0.63,1

@@ -1,0 +1,32 @@
+{
+  "record_type": "reported_paper_results",
+  "new_execution": false,
+  "manuscript_id": "FDC2026-0145",
+  "classification": {
+    "train_count": 648,
+    "test_count": 162,
+    "train_positive": 324,
+    "train_negative": 324,
+    "test_positive": 81,
+    "test_negative": 81,
+    "reported_accuracy_quantum_rounded_percent": 90,
+    "reported_accuracy_classic3d_rounded_percent": 95
+  },
+  "case": {
+    "generated_strings": 20,
+    "valid_structures": 7,
+    "selected_candidates": 5,
+    "feature_circuits": 5,
+    "qubits": 3,
+    "reps": 1,
+    "shots": 128,
+    "feature_dimension": 8
+  },
+  "structure_rule": {
+    "train_positive_aryl_azo": 322,
+    "train_negative_aryl_azo": 1,
+    "test_positive_aryl_azo": 81,
+    "test_negative_aryl_azo": 0,
+    "correct_test_samples": 162
+  }
+}

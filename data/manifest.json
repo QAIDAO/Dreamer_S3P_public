@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "classification_source": "Supplied fixed manuscript split; rows preserved, public molecule identifiers added",
+  "candidate_source": "Supplied twenty-string case output and five-candidate paper table",
+  "generator_data_source": "MolT5 ChEBI-20 public upstream; individual URLs in generation/upstream.json",
+  "reference_results_source": "Reported manuscript values and supplied numeric supplementary records",
+  "files": [
+    {
+      "path": "data/case/candidates_5.csv",
+      "bytes": 345,
+      "sha256": "7f57da32605c0c5e33a1a25c7fe80d868380b293768279b2352adc354d7f3fca",
+      "rows": 5
+    },
+    {
+      "path": "data/case/generated_20.csv",
+      "bytes": 759,
+      "sha256": "3f5fe5e1732e05e2df96d35c9a3de31f6d401441518cc98407cb9ab6efbc7c63",
+      "rows": 20
+    },
+    {
+      "path": "data/classification/test_162.csv",
+      "bytes": 10806,
+      "sha256": "e391442bc12b1efd3de9fa1ae6b811fecca91c5e26adb4d82492e1d966bd1fa9",
+      "rows": 162
+    },
+    {
+      "path": "data/classification/train_648.csv",
+      "bytes": 44889,
+      "sha256": "ca76c17d410cfa5aeb7611a65514a07e35d110e8463849c47cd7316ff7d8cbb8",
+      "rows": 648
+    },
+    {
+      "path": "data/generation/chebi20/test.txt",
+      "bytes": 1274868,
+      "sha256": "91776254b54ef13ad701ede0ecdbd7bcd30c19a66e52aa34a6dac8d0e7306d72",
+      "rows": 3300
+    },
+    {
+      "path": "data/generation/chebi20/train.txt",
+      "bytes": 10189623,
+      "sha256": "f8ad6001a1302fa5e1c7f3dbbe62d6c57deef475d51f417178382f7cda655a32",
+      "rows": 26407
+    },
+    {
+      "path": "data/generation/chebi20/validation.txt",
+      "bytes": 1289422,
+      "sha256": "f410b58e6825986577d01b4f0c14b59ed61c1343a15118ba584de4bbcea1508c",
+      "rows": 3301
+    },
+    {
+      "path": "data/generation/upstream.json",
+      "bytes": 1027,
+      "sha256": "72983665b5a2d6604893b3b3e984e9ba460ff202fa325ae3d57a48c2961101fb"
+    },
+    {
+      "path": "data/reference/case_execution.json",
+      "bytes": 4461,
+      "sha256": "262cea9aeab038d99c0edc6645d3b01d34c3cf54ba1912a00de03c318221ecc8"
+    },
+    {
+      "path": "data/reference/paper_results.json",
+      "bytes": 827,
+      "sha256": "bf277bcf9f36fffff7391929581b557c241a0d0d53ad081305b28edd0feff584"
+    },
+    {
+      "path": "data/reference/simulation_three_runs.json",
+      "bytes": 2056,
+      "sha256": "0a0f82d788803a0e8a4e7de3ed9753c564b8883ee6c78e2758856d132b7d1faf"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "光响应分子科研复现"
+  short_description: "组织论文案例核对、分子生成训练、筛选、量子特征采集与经典分类，并保留执行记录"
+  default_prompt: "使用 $dreamer-s3p-paper 核对案例并在CPU模拟器上执行可追溯的分子筛选流程。"

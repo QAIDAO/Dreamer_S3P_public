@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "manuscript_id": "FDC2026-0145",
+  "fingerprint": {"kind": "Morgan", "radius": 2, "bits": 128},
+  "preprocessing": {"standardize": true, "pca_components": 3, "angle_min": 0.0, "angle_max": 3.141592653589793, "clip_test_angles": true},
+  "circuit": {"qubits": 3, "reps": 1, "shots": 128, "gate_order": ["Ry(q0)", "Rz(q0)", "Ry(q1)", "Rz(q1)", "Ry(q2)", "Rz(q2)", "CX(q0,q1)", "CX(q1,q2)"], "probability_order": "000,001,010,011,100,101,110,111 (q2 q1 q0)"},
+  "classifier": {"kernel": "probability_dot_product", "C": 1.0, "seed": 42, "classical_kernel": "rbf", "classical_gamma": "scale", "score": "sigmoid(decision_function), uncalibrated"},
+  "screen": {"qed_min": 0.5, "sa_max": 3.0, "require_azobenzene": false, "require_para_nitro": false},
+  "generation": {"base_model": "gpt2", "n_generate": 20, "temperature": 0.8, "top_p": 0.96, "max_length": 64, "seed": 42, "prompt": "The molecule contains an azobenzene photoswitch core, where two phenyl rings are linked by a N=N double bond, and one phenyl ring bears a nitro group at the para position relative to the azo linkage.\nSMILES:"},
+  "training": {"epochs": 10, "batch_size": 16, "gradient_accumulation": 2, "learning_rate": 0.00005, "max_length": 256, "seed": 42, "weight_decay": 0.01, "max_grad_norm": 1.0}
+}

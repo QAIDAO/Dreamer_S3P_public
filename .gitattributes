@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.yaml text eol=lf
+# Preserve exact dataset and upstream-license bytes for SHA-256 validation.
+data/** -text
+licenses/** -text

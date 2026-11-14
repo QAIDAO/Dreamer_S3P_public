@@ -1,0 +1,25 @@
+{
+  "upstream": "https://github.com/blender-nlp/MolT5",
+  "revision": "main",
+  "pinning": "SHA-256 of committed data files; downloader rejects changed upstream content",
+  "files": [
+    {
+      "path": "data/generation/chebi20/train.txt",
+      "url": "https://raw.githubusercontent.com/blender-nlp/MolT5/main/ChEBI-20_data/train.txt",
+      "bytes": 10189623,
+      "sha256": "f8ad6001a1302fa5e1c7f3dbbe62d6c57deef475d51f417178382f7cda655a32"
+    },
+    {
+      "path": "data/generation/chebi20/validation.txt",
+      "url": "https://raw.githubusercontent.com/blender-nlp/MolT5/main/ChEBI-20_data/validation.txt",
+      "bytes": 1289422,
+      "sha256": "f410b58e6825986577d01b4f0c14b59ed61c1343a15118ba584de4bbcea1508c"
+    },
+    {
+      "path": "data/generation/chebi20/test.txt",
+      "url": "https://raw.githubusercontent.com/blender-nlp/MolT5/main/ChEBI-20_data/test.txt",
+      "bytes": 1274868,
+      "sha256": "91776254b54ef13ad701ede0ecdbd7bcd30c19a66e52aa34a6dac8d0e7306d72"
+    }
+  ]
+}
